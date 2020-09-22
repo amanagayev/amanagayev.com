@@ -1,7 +1,7 @@
-h1{
+#my_header {
     color: rgb(69, 69, 233);
 }
 
-p {
+.my_pgr {
     color: #f7fa34;
 }
