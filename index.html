@@ -2,13 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="Jr., Junior, Web, Developer">
+    <meta name="author" content="Aman Agayev">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="shortcut_icon.png">
-    <title>Aman AGAYEV</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Portfolio - Aman Agayev</title>
 </head>
 <body id="body_1">
-    <h1 id="my_header">This is My Design!</h1>
-    <p class="my_prg">Lorem lorem lorem lorem lorem!</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-null">
+        <!-- <a class="navbar-brand" href="index.html">Aman Agayev</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <button id="id_contact" onclick="goToContact()" class="nav-link">Contact</button>
+                </li>
+            </ul>
+        </div>
+      </nav>
+    <div class="container">
+        <div class="section-1">
+            <div class="row">
+                <div class="col col-md-8 col-lg-9"><h1 id="intro_name">Aman Agayev</h1></div>
+            </div>
+        </div>
+
+        <button onclick="goToSection2()" id="goTo_section2"><ion-icon name="arrow-down-outline"></ion-icon></button>
+
+        <div class="section-2">
+            <h1>OBJECTIVE</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias qui eaque pariatur, quaerat sit facere aspernatur magni quod reprehenderit mollitia. Ullam inventore rerum saepe fugiat molestias mollitia accusantium aut ipsa. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae at rerum eligendi, dicta laudantium aliquid aut incidunt libero veritatis sit nulla vitae hic iure earum nobis sed a aliquam odio.</p>
+        </div>
+
+        <div class="section-3">
+            <h1>EDUCATION</h1>
+            <p>Istanbul Technical University - Civil Engineering</p>
+            <p><i>2017 - Present</i></p>            
+        </div>
+
+        <div class="section-4">
+            <h1>SKILLS</h1>
+            <ul>
+                <li>Html:5</li>
+                <li>Css:3</li>
+                <li>Javascript</li>
+                <li>(Node.js)</li>
+                <li>Python - Django</li>
+            </ul>
+        </div>
+
+        <div class="section-5">
+            <h1>LANGUAGE</h1>
+            <ul>
+                <li><span>English (High Intermediate)</span></li>
+                <li><span>Russian (Low Intermadiate)</span></li>
+                <li><span>Turkish (Fluent)</span></li>
+                <li><span>Turkmen (Native)</span></li>
+            </ul>
+        </div>
+
+        <div class="section-6">
+            <h1>OTHER PROGRAM EXPERIENCES</h1>
+            <ul>
+                <li>Microsoft Office: Excel, Word, Power Point</li>
+                <li>AutoCAD</li>
+                <li>Lumion</li>
+                <li>Photoshop</li>
+            </ul>
+        </div>
+
+        <div class="section-7">
+            <h1>WORK EXPERIENCES</h1>
+            <ul>
+                <li>Waiter - Adalar, Istanbul / 2016 Summer / 2017 Summer / 2018 Summer</li>
+                <li>Advertising - Şirinevler, Istanbul / 2019 Summer</li>
+                <li>Receptionist - Sultanahmet, Istanbul / 2020 February-March</li>
+            </ul>
+        </div>
+                
+        <div class="section-8">
+            <h1>CONTACT</h1><br>
+            <div>
+                <div class="row">
+                    <div class="col"><p><ion-icon name="mail-outline"></ion-icon> amanagayev@gmail.com</p></div>
+                    <div class="col"><a href="https://www.linkedin.com/in/amanagayev" target="_blank"><ion-icon name="logo-linkedin"></ion-icon> /in/amanagayev</a></div>
+                    <div class="col"><a href="https://github.com/amanagayev" target="_blank"><ion-icon name="logo-github"></ion-icon> /amanagayev</a></div>
+                </div>
+            </div>            
+        </div>
+        
+
+    </div>
+    
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
