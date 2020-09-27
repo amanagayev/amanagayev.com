@@ -2,10 +2,68 @@
     background-color: #edeef5;
 }
 
-#my_header {
-    color: rgb(69, 69, 233);
+.container{
+    text-align: center;
 }
 
-.my_prg {
-    color: #f7fa34;
+#id_contact {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2em;
+}
+
+#id_contact:hover {
+    color: #9094c9;
+}
+
+#intro_name {
+    padding: 31% 5%;
+    font-size: 600%;
+}
+
+#goTo_section2 {
+    display: block;
+    position: fixed;
+    border: none;
+    outline: none;
+    z-index: 99;
+    font-size: 1.2em;
+    left: 50%;
+    background: none;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8 {
+    padding: 3em 0;
+}
+
+ul li {
+    position: relative;
+    left: -19px;
+}
+
+ion-icon {
+    font-size: 28px;
+}
+
+a:link {
+    color: #000000;
+    font-size: 1.2em;
+}
+
+a:visited {
+    color: #000000;
+}
+
+a:hover {
+    color: #6ff76f;
 }
