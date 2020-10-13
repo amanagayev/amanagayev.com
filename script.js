@@ -1,3 +1,7 @@
+function goToProjects() {
+    document.documentElement.scrollTo({top: 1600, behavior: 'smooth'});
+};
+
 function goToContact() {
     document.documentElement.scrollTo({top: 10000, behavior: 'smooth'});
 };
