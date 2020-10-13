@@ -6,11 +6,22 @@
     text-align: center;
 }
 
+#id_projects {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.1em;
+}
+
+#id_projects:hover {
+    color: #9094c9;
+}
+
 #id_contact {
     border: none;
     outline: none;
     background: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 #id_contact:hover {
