@@ -1,16 +1,14 @@
-function goToProjects() {
-    document.documentElement.scrollTo({top: 1600, behavior: 'smooth'});
+function goTo(i) {
+    document.documentElement.scrollTo({top: i, behavior: 'smooth'});
 };
 
-function goToContact() {
-    document.documentElement.scrollTo({top: 10000, behavior: 'smooth'});
-};
+let projects, contact, section2;
 
-function goToSection2() {
-    document.documentElement.scrollTo({top: 650, behavior: 'smooth'});
-}
+projects = 1600;
+contact = 10000;
+section2 = 650;
 
-var downArrow = document.getElementById('goTo_section2');
+const downArrow = document.getElementById('goTo_section2');
 
 window.onscroll = function() {scrollFunction()};
 
