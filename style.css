@@ -6,17 +6,6 @@
     text-align: center;
 }
 
-#id_projects {
-    border: none;
-    outline: none;
-    background: none;
-    font-size: 1.1em;
-}
-
-#id_projects:hover {
-    color: #9094c9;
-}
-
 #id_contact {
     border: none;
     outline: none;
@@ -58,7 +47,7 @@ p {
     font-size: 1.2em;
 }
 
-.section-2, .section-3, .section-4, .section-5, .section-6, .section-7, .section-8, .section-9 {
+.section-4, .section-5, .section-9 {
     padding: 3em 0;
 }
 
