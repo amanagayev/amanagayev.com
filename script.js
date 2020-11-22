@@ -1,10 +1,9 @@
-function goTo(i) {
-    document.documentElement.scrollTo({top: i, behavior: 'smooth'});
+function goTo(e) {
+    document.documentElement.scrollTo({top: e, behavior: 'smooth'});
 };
 
-let projects, contact, section2;
+let contact, section2;
 
-projects = 1600;
 contact = 10000;
 section2 = 650;
 
