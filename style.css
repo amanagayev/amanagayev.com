@@ -40,15 +40,6 @@
 
 ul {
     list-style-type: none;
-    font-size: 1.2em;
-}
-
-p {
-    font-size: 1.2em;
-}
-
-.section-9 {
-    padding: 3em 0;
 }
 
 ul li {
@@ -62,7 +53,6 @@ ion-icon {
 
 a:link {
     color: #000000;
-    font-size: 1.2em;
 }
 
 a:visited {
